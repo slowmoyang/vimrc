@@ -12,14 +12,14 @@ Plug 'Gullumluvl/vim-Condor'
 
 " snippets
 Plug 'SirVer/ultisnips'
-Plug 'seungjin-yang/vim-snippets'
+Plug 'honza/vim-snippets'
 
 " hi
-Plug 'tpope/vim-markdown', { 'branch': 'master' }
+Plug 'tpope/vim-markdown'
 Plug 'MTDL9/vim-log-highlighting', { 'tag': 'v1.0.0' }
 
 " colorscheme
-Plug 'seungjin-yang/bat.vim', { 'branch': 'master' }
+Plug 'slowmoyang/bat.vim'
 
 " misc
 Plug 'preservim/nerdtree', { 'tag': '6.10.16' }
