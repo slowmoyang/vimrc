@@ -1,14 +1,14 @@
-source ~/opt/vimrc/plug.vim
+source ~/config/vimrc/plug.vim
 " plugins
-source ~/opt/vimrc/colorscheme.vim
-source ~/opt/vimrc/coc.vim
-source ~/opt/vimrc/markdown.vim
-source ~/opt/vimrc/vimtex.vim
-source ~/opt/vimrc/python.vim
-source ~/opt/vimrc/goyo.vim
-source ~/opt/vimrc/ultisnips.vim
-source ~/opt/vimrc/nerdtree.vim
-source ~/opt/vimrc/airline.vim
-source ~/opt/vimrc/smoothscroll.vim
+source ~/config/vimrc/colorscheme.vim
+source ~/config/vimrc/coc.vim
+source ~/config/vimrc/markdown.vim
+source ~/config/vimrc/vimtex.vim
+source ~/config/vimrc/python.vim
+source ~/config/vimrc/goyo.vim
+source ~/config/vimrc/ultisnips.vim
+source ~/config/vimrc/nerdtree.vim
+source ~/config/vimrc/airline.vim
+source ~/config/vimrc/smoothscroll.vim
 " my config
-source ~/opt/vimrc/myconfig.vim
+source ~/config/vimrc/myconfig.vim
