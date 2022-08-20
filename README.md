@@ -1,5 +1,13 @@
 # 
 
+```zsh
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+git clone git@github.com:slowmoyang/vimrc.git ~/config/vimrc
+mkdir -vp ~/.vim/tmp/undo
+```
+
+
 ```vim
 CocInstall coc-pyright
 CocInstall coc-snippets
