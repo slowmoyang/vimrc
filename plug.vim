@@ -4,11 +4,14 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " coc
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'tjdevries/coc-zsh'
 
 " syntax
 Plug 'lervag/vimtex'
 Plug 'vim-python/python-syntax'
+Plug 'mechatroner/rainbow_csv'
 Plug 'Gullumluvl/vim-Condor'
+Plug 'slowmoyang/vim-NanoAOD_Analyzer'
 
 " snippets
 Plug 'SirVer/ultisnips'

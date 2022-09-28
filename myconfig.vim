@@ -1,7 +1,11 @@
 set encoding=utf-8
 set nu
 set cursorline
+
 set syntax=on
+au BufReadPost .gitconfig set syntax=dosini
+au BufReadPost zuliprc set syntax=dosini
+au BufReadPost .pylintrc set syntax=dosini
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=darkgray
@@ -11,9 +15,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-autocmd FileType python setlocal expandtab tabstop=4 shiftwidth=4
+autocmd FileType python setlocal softtabstop=4 tabstop=4 shiftwidth=4 expandtab
 autocmd Filetype cpp setlocal expandtab tabstop=2 shiftwidth=2
 autocmd FileType yaml setlocal expandtab tabstop=4 shiftwidth=4
+autocmd Filetype tex setlocal expandtab tabstop=2 shiftwidth=2
 
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
@@ -57,3 +62,7 @@ inoremap $e ""<esc>i
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " To map <Esc> to exit terminal-mode: >
 tnoremap <Esc> <C-\><C-n>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <Leader>y "*y
+map <Leader>p "*p
