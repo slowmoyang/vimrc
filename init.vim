@@ -12,3 +12,4 @@ source ~/config/vimrc/airline.vim
 source ~/config/vimrc/smoothscroll.vim
 " my config
 source ~/config/vimrc/myconfig.vim
+source ~/config/vimrc/spell.vim
