@@ -6,20 +6,19 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'tjdevries/coc-zsh'
 
-" syntax
+" syntax hi
 Plug 'lervag/vimtex'
 Plug 'vim-python/python-syntax'
 Plug 'mechatroner/rainbow_csv'
 Plug 'Gullumluvl/vim-Condor'
 Plug 'slowmoyang/vim-NanoAOD_Analyzer'
+Plug 'liuchengxu/graphviz.vim'
+Plug 'tpope/vim-markdown'
+Plug 'MTDL9/vim-log-highlighting', { 'tag': 'v1.0.0' }
 
 " snippets
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-
-" hi
-Plug 'tpope/vim-markdown'
-Plug 'MTDL9/vim-log-highlighting', { 'tag': 'v1.0.0' }
 
 " colorscheme
 Plug 'slowmoyang/bat.vim'
