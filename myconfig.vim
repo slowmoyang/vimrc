@@ -7,6 +7,9 @@ au BufReadPost .gitconfig set syntax=dosini
 au BufReadPost zuliprc set syntax=dosini
 au BufReadPost .pylintrc set syntax=dosini
 au BufReadPost .clang-format set syntax=yaml
+au BufReadPost *.blg set syntax=log
+
+
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=darkgray
