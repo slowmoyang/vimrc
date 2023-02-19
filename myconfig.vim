@@ -11,7 +11,8 @@ au BufReadPost *.blg set syntax=log
 
 
 
-set colorcolumn=80
+" set colorcolumn=80
+set cc=80
 highlight ColorColumn ctermbg=darkgray
 
 set softtabstop=4

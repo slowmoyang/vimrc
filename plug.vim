@@ -1,29 +1,35 @@
 " https://github.com/junegunn/vim-plug
 call plug#begin()
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-" coc
+"" coc
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-Plug 'tjdevries/coc-zsh'
+""Plug 'tjdevries/coc-zsh'
 
-" syntax hi
-Plug 'lervag/vimtex'
-Plug 'vim-python/python-syntax'
-Plug 'mechatroner/rainbow_csv'
-Plug 'Gullumluvl/vim-Condor'
-Plug 'slowmoyang/vim-NanoAOD_Analyzer'
-Plug 'liuchengxu/graphviz.vim'
-Plug 'tpope/vim-markdown'
-Plug 'MTDL9/vim-log-highlighting', { 'tag': 'v1.0.0' }
+"" syntax hi
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/playground'
 
-" snippets
+
+""Plug 'lervag/vimtex'
+"" Plug 'vim-python/python-syntax'
+""Plug 'mechatroner/rainbow_csv'
+""Plug 'Gullumluvl/vim-Condor'
+""Plug 'slowmoyang/vim-NanoAOD_Analyzer'
+""Plug 'liuchengxu/graphviz.vim'
+""Plug 'tpope/vim-markdown'
+""Plug 'MTDL9/vim-log-highlighting', { 'tag': 'v1.0.0' }
+""Plug 'slowmoyang/vim-combine'
+""Plug 'rust-lang/rust.vim'
+
+"" snippets
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
-" colorscheme
+"" colorscheme
 Plug 'slowmoyang/bat.vim'
 
-" misc
+"" misc
 Plug 'preservim/nerdtree', { 'tag': '6.10.16' }
 Plug 'junegunn/goyo.vim'
 Plug 'preservim/nerdcommenter'
