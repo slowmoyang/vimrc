@@ -10,7 +10,7 @@ source ~/config/vimrc/ultisnips.vim
 source ~/config/vimrc/nerdtree.vim
 source ~/config/vimrc/airline.vim
 source ~/config/vimrc/smoothscroll.vim
-"source ~/config/vimrc/treesitter.vim
+source ~/config/vimrc/treesitter.vim
 " my config
 source ~/config/vimrc/myconfig.vim
 source ~/config/vimrc/spell.vim
