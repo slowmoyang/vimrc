@@ -1,6 +1,6 @@
 " https://github.com/junegunn/vim-plug
 call plug#begin()
-"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 "" coc
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
@@ -27,7 +27,8 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 "" colorscheme
-Plug 'slowmoyang/bat.vim'
+Plug 'sainnhe/sonokai'
+Plug 'mhartington/oceanic-next'
 
 "" misc
 Plug 'preservim/nerdtree', { 'tag': '6.10.16' }
